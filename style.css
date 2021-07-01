@@ -1,0 +1,60 @@
+body {
+background-color: deepskyblue;
+}
+
+.pageheader {
+text-align: center;
+}
+.pageheader h1 {
+
+}
+
+.pagecontents {
+text-align: center;
+background-color: ghostwhite;
+margin: 25 300 25px;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+border-top-left-radius: 100px;
+border-top-right-radius: 100px;
+padding: 20px;
+}
+.numbers {
+padding: 0px;
+    
+    
+}
+.numbers ul {
+list-style-type: none;
+display: inline-block; 
+text-align: left;
+}
+.three {
+background-color: white;
+}
+
+.four {
+background-color: gainsboro;
+}
+
+.serven {
+background-color: white;
+}
+
+.e {
+background-color: gainsboro;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
