@@ -4,7 +4,7 @@ background-color: deepskyblue;
 
 .pageheader {
 text-align: center;
-}                        
+}
 .pageheader h1 {
 
 }
@@ -52,6 +52,7 @@ background-color: gainsboro;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
+ margin:  12px 30px;
 }
 
 /* Darker background on mouse-over */
