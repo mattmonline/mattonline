@@ -1,61 +1,252 @@
-body {
-background-color: deepskyblue;
+    body
+{
+	background-color: #000000;
+	text-decoration: none;
 }
 
-.pageheader {
+body,td,th
+{
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+a
+{
+	font-size: 12px;
+	color: #FFFFFF;
+}
+a:link
+{
+	text-decoration: none; 
+	color: #FFFFFF;
+}
+a:visited
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:active
+{
+	text-decoration: underline;
+	color: #00FF00;
+}
+
+
+.tdheaderdj
+{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: oblique;
+	margin: auto;
+	font-weight: bold;
+	text-align: center;
+	color: #F03;
+}
+
+.tdheadergal
+{
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: oblique;
+margin: auto;
+font-weight: 100;
 text-align: center;
 }
-.pageheader h1 {
 
-}
-
-.pagecontents {
+.style1
+{
+color: #FFFFFF;
+font-size: 12px;
+font-weight: 800;
 text-align: center;
-background-color: ghostwhite;
-margin: 25 300 25px;
-border-bottom-left-radius: 100px;
-border-bottom-right-radius: 100px;
-border-top-left-radius: 100px;
-border-top-right-radius: 100px;
-padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
 }
-.numbers {
-padding: 0px;
-    
-    
-}
-.numbers ul {
-list-style-type: none;
-display: inline-block; 
+
+.style2
+{
+color: #FFFFFF;
+font-size: 14px;
+font-weight: 100;
 text-align: left;
-}
-.three {
-background-color: white;
+font-family: "Times New Roman", Times, serif;
 }
 
-.four {
-background-color: gainsboro;
+.style3
+{
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 200;
+text-align: left;
+font-family: "Courier New", Courier, monospace;}
+
+.style4
+{
+color: #FFFFFF;
+font-size: 18px;
+font-weight: 500;
+text-align: left;
+font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.serven {
-background-color: white;
+.style5
+{
+color: #33FF66;
+font-size: 14px;
+font-weight: 500;
+text-align: center;
+font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
-.e {
-background-color: gainsboro;
+.style6
+{
+	color: #FC0;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
- margin:  12px 30px;
+.style7
+{
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 200;
+text-align: center;
+font-family: "Courier New", Courier, monospace;
 }
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
+.style8
+{
+color: #FFFFFF;
+font-size: 32px;
+font-weight: 200;
+text-align: center;
+font-family: Geneva, Arial, Helvetica, sans-serif;
 }
+
+
+.textbox
+{
+color: #0000FF
+font-size: 14px
+font-weight: 500;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Gallery */
+
+#gallery {
+	clear: both;
+	width: 700px;
+	height: 480px;
+	margin: 0 auto;
+}
+
+#top-photo h2 {
+	height: 1.4em;
+	font-size: 1em;
+}
+
+#top-photo p {
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+#prev {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 100px;
+	background: url(/web/20160316023645im_/http://discoandballoons.net/img11.gif) no-repeat;
+}
+
+#next {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 100px;
+	background: url(/web/20160316023645im_/http://discoandballoons.net/img13.gif) no-repeat right top;
+}
+
+#prev span, #next span {
+	display: none;
+}
+
+#thumbs {
+	display: block;
+	float: left;
+	width: 640px;
+	height: 100px;
+	background: url(/web/20160316023645im_/http://discoandballoons.net/img12.gif) no-repeat;
+}
+
+#thumbs img {
+	padding: 8px 0 0 10px;
+}
+.style3 tr td strong {
+	font-style: italic;
+	font-size: 18px;
+	color: #FC3;
+}
+.style3 tr td .style3 {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 24px;
+	color: #FC3;
+}
+.style3 tr td {
+	font-weight: normal;
+}
+.style3 tr td {
+	font-weight: bold;
+}
+.style3 tr td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style3 tr td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style3 tr td {
+	font-weight: bold;
+	font-size: 16px;
+}
+.style3 {
+	font-weight: bold;
+	text-align: center;
+}
+.TEXT {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.style3 tr td a {
+	font-size: 24px;
+}
+.style3 tr td a {
+	font-size: 18px;
+}
+
+/*
+     FILE ARCHIVED ON 02:36:45 Mar 16, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:18:32 Jul 09, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  CDXLines.iter: 18.876 (3)
+  load_resource: 153.696 (2)
+  exclusion.robots.policy: 0.147
+  RedisCDXSource: 0.803
+  esindex: 0.011
+  PetaboxLoader3.datanode: 295.685 (5)
+  captures_list: 412.209
+  exclusion.robots: 0.169
+  PetaboxLoader3.resolve: 188.698 (4)
+  LoadShardBlock: 389.33 (3)
+*/
